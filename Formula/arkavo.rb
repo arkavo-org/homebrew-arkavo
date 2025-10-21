@@ -6,14 +6,14 @@ class Arkavo < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/arkavo-org/arkavo-edge/releases/download/0.37.1/arkavo-0.37.1-aarch64-apple-darwin.tar.gz"
-      sha256 "ec302f12aace02dc522797cfea505d12c292f1c179c93e47e2561aa2348798dc"
+      sha256 "aaaf949f33f244689578eec24abfa56def9bff0ea750601b27df78ab5b9ec272"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/arkavo-org/arkavo-edge/releases/download/0.37.1/arkavo-0.37.1-x86_64-linux.tar.gz"
-      sha256 "0d6fede3a05872b64b8e6b3dc6c502a94d3f8f01a837d615793f27068078e82d"
+      sha256 "7da2bde1cce93a72648e0dfa1786751d530c79d4ff15009515191370c0d4b082"
     end
   end
 
