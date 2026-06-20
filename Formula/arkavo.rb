@@ -1,19 +1,19 @@
 class Arkavo < Formula
   desc "Instant, secure orchestration for AI agents"
   homepage "https://github.com/arkavo-org/arkavo-edge"
-  version "0.84.0"
+  version "0.85.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/arkavo-org/arkavo-edge/releases/download/0.84.0/arkavo-0.84.0-aarch64-apple-darwin.tar.gz"
-      sha256 "2ff01dbe1d520dc08065e7af6d04449bfdd95c3052f5c7d576d082ca5b0c9334"
+      url "https://github.com/arkavo-org/arkavo-edge/releases/download/0.85.0/arkavo-0.85.0-aarch64-apple-darwin.tar.gz"
+      sha256 "6e1b7cc1dd78e1a23d0c3a01f7409a3aaacd9a136acb23c0f515c50dbf343305"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/arkavo-org/arkavo-edge/releases/download/0.84.0/arkavo-0.84.0-x86_64-linux.tar.gz"
-      sha256 "0ba5454897bbff7c1b56ba7d100d2981ad63eda72925c1df8df6394c7240912c"
+      url "https://github.com/arkavo-org/arkavo-edge/releases/download/0.85.0/arkavo-0.85.0-x86_64-linux.tar.gz"
+      sha256 "552bdc1a967db161222f9e53cc41fdee41953a05453707635033f9fc323eb0c2"
     end
   end
 
